@@ -1,19 +1,18 @@
 {
-  "id": "plugin.com.TzuLao.deepseek",
+  "id": "plugin.com.TzuLao.GROK",
   "plugin_type": "translate",
   "icon": "deepseek.svg",
   "display": "deepseek",
-  "homepage": "https://github.com/tzulao55/pot-app-translate-plugin-deepseek",
+  "homepage": "https://github.com/aijumpx/pot-app-translate-plugin-GROK",
   "needs": [
     {
       "key": "model",
       "display": "模型选择",
       "type": "select",
       "options": {
-        "deepseek-chat": "deepseek-chat",
-        "deepseek-reasoner": "deepseek-reasoner"
+        "grok-2-1212": "grok-2-1212",
       },
-      "default": "deepseek-chat"
+      "default": "grok-2-1212"
     },
     {
       "key": "apiKey",
